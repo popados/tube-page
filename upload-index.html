@@ -3,7 +3,7 @@
 <html>
   <head>
     <meta name="google" content="notranslate" />
-    <title>fav-videos</title>
+    <title>test-fav</title>
     <link href="stylesheet.css" rel="stylesheet" type="text/css" />
     <link
       rel="stylesheet"
@@ -14,7 +14,7 @@
   <header>
     <h1>Videos</h1>
     <hr />
-    <h2>Favorite Videos</h2>
+    <h2>Home Page</h2>
     <div class="anchor-holder" style="background-color: black">
       <a href="./index.html"> Home</a>
       <br />
@@ -27,21 +27,35 @@
     <label>Upload</label>
     <input type="checkbox" name="upload" id="upload" />
   </header>
-
   <body>
     <p>Text goes here</p>
-    <h3>Videos</h3>
-    <iframe></iframe>
-    <form>
-      <label>Upload</label>
-      <input type="checkbox" name="upload" id="upload" />
+
+    <form id="selection-form">
+      <label for="select">Choose Item :</label>
+
+      <select name="select" id="select">
+        <option value="Item A">Item A</option>
+        <option value="Item B">Item B</option>
+        <option value="Item C">Item C</option>
+        <option value="Item D">Item D</option>
+        <option value="Item E">Item E</option>
+      </select>
     </form>
+
     <a href="./details/details-one.html">Details One</a>
     <a href="./details/details-two.html">Details Two</a>
-    <br />
-    <a href="./upload-page.html">Upload Page</a>
+
+    <form id="text">
+      <textarea
+        id="subject"
+        name="subject"
+        placeholder="Write something.."
+        style="height: 96px; width: 400px"
+      ></textarea>
+      <br />
+      <button type="submit">Submit</button>
+    </form>
+
     <script src="script.js"></script>
   </body>
-  <hr />
-  <footer>&copy; Copyright -> Nikhil "Popados" Khandwala</footer>
 </html>
