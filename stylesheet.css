@@ -28,3 +28,14 @@ a {
 hr {
   width: 100%;
 }
+
+.video-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.video {
+  padding: 10px;
+  text-align: center;
+}

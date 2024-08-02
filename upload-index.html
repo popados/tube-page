@@ -3,7 +3,7 @@
 <html>
   <head>
     <meta name="google" content="notranslate" />
-    <title>test-fav</title>
+    <title>tube-page</title>
     <link href="stylesheet.css" rel="stylesheet" type="text/css" />
     <link
       rel="stylesheet"
@@ -11,26 +11,35 @@
     />
   </head>
 
-  <header>
-    <h1>Videos</h1>
-    <hr />
-    <h2>Home Page</h2>
-    <div class="anchor-holder" style="background-color: black">
-      <a href="./index.html"> Home</a>
-      <br />
-      <a href="./fav-videos.html"> Favorite Videos</a>
-      <br />
-      <a href="./collections/collection-one.html"> Collection One </a>
-      <a href="./collections/collection-two.html"> Collection Two</a>
-      <a href="./collections/collection-three.html"> Collection Three</a>
-    </div>
-    <label>Upload</label>
-    <input type="checkbox" name="upload" id="upload" />
-  </header>
   <body>
-    <p>Text goes here</p>
+    <header>
+      <h1>Videos</h1>
+      <hr />
+      <h2>Collections</h2>
+      <div class="anchor-holder" style="background-color: black">
+        <a href="./index.html"> Home</a>
+        <br />
+        <a href="./upload-index.html"> Upload Videos</a>
+        <br />
+        <a href="./collections/collection-one.html"> Collection One </a>
+        <a href="./collections/collection-two.html"> Collection Two</a>
+        <a href="./collections/collection-three.html"> Collection Three</a>
+      </div>
+      <label>Upload</label>
+      <input type="checkbox" name="upload" id="upload" />
+    </header>
 
-    <form id="selection-form">
+    <h3>Add Video</h3>
+
+    <iframe></iframe>
+    <form>
+      <input type="file" name="upload" id="upload" />
+      <br />
+      <label>Upload</label>
+      <input type="checkbox" name="upload" id="upload" />
+    </form>
+
+    <form>
       <label for="select">Choose Item :</label>
 
       <select name="select" id="select">
@@ -40,22 +49,20 @@
         <option value="Item D">Item D</option>
         <option value="Item E">Item E</option>
       </select>
+      <br />
+      <input type="button" name="submit" value="submit" />
     </form>
+
+    <p>Text goes here</p>
 
     <a href="./details/details-one.html">Details One</a>
-    <a href="./details/details-two.html">Details Two</a>
-
-    <form id="text">
-      <textarea
-        id="subject"
-        name="subject"
-        placeholder="Write something.."
-        style="height: 96px; width: 400px"
-      ></textarea>
-      <br />
-      <button type="submit">Submit</button>
-    </form>
+    <!-- <a href="./details/details-two.html">Details Two</a> -->
+    <br />
+    <a href="./upload-index.html">Upload Page</a>
 
     <script src="script.js"></script>
+
+    <hr />
+    <footer>&copy; Copyright -> Nikhil "Popados" Khandwala</footer>
   </body>
 </html>
