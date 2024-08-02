@@ -19,6 +19,7 @@ a {
   /* width: 100%; */
   color: orange;
   background-color: #0e0e0e;
+  display: block;
   /* padding: 10px; */
 
   /* display: block; */
@@ -38,4 +39,8 @@ hr {
 .video {
   padding: 10px;
   text-align: center;
+}
+
+.anchor-holder > a {
+  margin: 0 10px;
 }

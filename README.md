@@ -1,4 +1,6 @@
-# Readme File \|
+<div id="top-of-doc"> </div>
+
+# Readme File |
 
 [My Github](https://github.com/popados) \| [Jump to End](#end-of-doc)
 
@@ -39,10 +41,10 @@ Read these requirements again before submitting your assignment to make sure you
 
 - **Create two (2) directories**
 
-- **pages** \- this will contain \.html files for each "video collection" page\. There should be 3 files in this directory\. \(i\.e\. sports\.html\, music\.html\, fitness\.html\)\.
-- **videos** \- this will contain \.html files for each videos "details" page \
-  - (Hint \- \- You'll have 3 collection pages with 6 videos in each\.
-  - That means this directory will have 18 html files (i.e. video-1.html, video-2.html, etc...)
+  - **pages** - this will contain html files for each "video collection" page. There should be 3 files in this directory(i.e. sports.html, music.html, fitness.html)
+  - **videos** - this will contain html files for each videos "details" page \
+    - (Hint - You'll have 3 collection pages with 6 videos in each
+    - That means this directory will have 18 html files (i.e. video-1.html, video-2.html, etc...)
 
 ### CSS REQUIREMENTS
 
@@ -68,7 +70,7 @@ Working working working. Zug zug. On the MyTube. Let's play the make some video 
 
 first we make a page like so:
 
-```
+```HTML
 <!DOCTYPE html>
 
 
@@ -79,16 +81,18 @@ first we make a page like so:
 
 </header>
 
-This is stuff to write.
-Video.
-Videos have their own page.
-Upload file.
-Details.
-Collections.
-Comment.
-Rate?
-Descriptions.
-Radio Buttons.
+<ul>
+  <li>This is stuff to write.</li>
+  <li>Video.</li>
+  <li>Videos have their own p</li>age.
+  <li>Upload file.</li>
+  <li>Details.</li>
+  <li>Collections.</li>
+  <li>Comment.</li>
+  <li>Rate?</li>
+  <li>Descriptions.</li>
+  <li>Radio Buttons.</li>
+<ul>
 <hr>
 <footer>&copy; Copyright -> Nikhil "Popados" Khandwala</footer>
 
