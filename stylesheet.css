@@ -30,6 +30,10 @@ hr {
   width: 100%;
 }
 
+p {
+  padding: 10px;
+}
+
 .video-container {
   display: flex;
   flex-direction: row;

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta name="google" content="notranslate" />
+  <title>Upload - MyTube</title>
+  <link href="stylesheet.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Upload - MyTube</h1>
+    <hr />
+    <h2>Upload Videos</h2>
+    <div class="anchor-holder" style="background-color: black">
+      <a href="./index.html"> Home</a>
+      <a href="./collections/collection-one.html"> Collection One - Music </a>
+      <a href="./collections/collection-two.html"> Collection Two - Coding</a>
+      <a href="./collections/collection-three.html">
+        Collection Three - Gaming</a>
+      <a href="./upload-index.html"> Upload Videos</a>
+    </div>
+  </header>
+
+  <h3>Add Video</h3>
+
+  <iframe></iframe>
+  <form>
+    <label for="select">Choose Collection :</label>
+
+    <select name="select" id="select">
+      <option value="Item A">Collection One</option>
+      <option value="Item B">Collection Two</option>
+      <option value="Item C">Collection Three</option>
+    </select>
+    <br />
+
+    <label>Public</label>
+    <input type="radio" name="upload" id="upload-one" checked />
+    <label>Private</label>
+    <input type="radio" name="upload" id="upload-two" />
+    <br />
+    <label>Title:</label>
+    <input type="checkbox" name="title" id="title" checked />
+    <label>Description:</label>
+    <input type="checkbox" name="description-checkbox" id="description-checkbox" checked />
+    <label>Video:</label>
+    <input type="checkbox" name="video" id="video" />
+  </form>
+  <form>
+    <label>Enter Title:</label>
+    <input type="text" name="title-text" id="title-text" />
+    <br />
+    <label>Enter Description:</label>
+    <br />
+    <textarea name="description" id="description" cols="40" rows="8"></textarea>
+    <br />
+    <label>Upload file: </label>
+    <input type="file" name="upload" id="upload" />
+    <br />
+    <input type="button" name="submit" value="Submit" />
+  </form>
+  <script src="script.js"></script>
+
+  <hr />
+  <footer>&copy; Copyright -> Nikhil "Popados" Khandwala</footer>
+</body>
+
+</html>
