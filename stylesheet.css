@@ -17,7 +17,6 @@ body {
 a {
   color: #ff8c00;
   background-color: #121212;
-
   display: block;
   text-align: center;
 }
@@ -62,7 +61,7 @@ iframe {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .video {
@@ -77,6 +76,13 @@ iframe {
 .video > a:hover {
   border: orange 2px solid;
   color: whitesmoke;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .anchor-holder {
@@ -132,21 +138,18 @@ iframe {
 .b03_skewed_slide_in div:nth-child(2) {
   background-color: #121212;
   width: 100%;
-
   transition: all 0.2s ease;
   transform: translate(-250px, 00px) skewX(-30deg);
 }
 
 .b03_skewed_slide_in div:nth-child(3) {
   color: #121212;
-
   left: -250px;
   transition: left 0.2s ease;
 }
 
 .b03_skewed_slide_in:hover div:nth-child(3) {
   color: whitesmoke;
-  left: -250px;
   transition: left 0.2s ease;
   display: block;
 }
